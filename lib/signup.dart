@@ -13,18 +13,15 @@ class Signup extends StatelessWidget {
 
     return Scaffold(
     
-      backgroundColor: Color.fromARGB(255, 180, 14, 199), // Set your desired background color for the entire screen
+     
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
           child: Container(
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 227, 232, 235), // Set the background color for the container
+             
               borderRadius: BorderRadius.circular(20.0),
-              border: Border.all(
-                color: Color.fromARGB(255, 231, 102, 224), // Set your desired border color
-                width: 2.0,
-              ),
+             
             ),
             padding: const EdgeInsets.all(20.0),
             child: Column(
@@ -138,14 +135,14 @@ class Signup extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Color.fromARGB(255, 194, 23, 191),
+                      backgroundColor: Color.fromARGB(255, 12, 83, 184),
                       padding: const EdgeInsets.symmetric(
                         vertical: 12,
                         horizontal: 30,
                       ),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(25),
-                        side: BorderSide(color: Color.fromARGB(255, 105, 18, 110)),
+                        side: BorderSide(color: Color.fromARGB(255, 22, 40, 203)),
                       ),
                     ),
                     child: const Text(
